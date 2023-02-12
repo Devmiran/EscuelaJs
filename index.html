@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Escuela Gamberritos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3 class="text-center mt-3">Escuela Gamberritos</h3>
+    <div id="botones" class="d-flex justify-content-between mb-3">
+
+        <div>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#crearPers">Agregar
+                Estudiante</button>
+        </div>
+
+
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th scope="col">Nombre del Estudiante</th>
+                <th scope="col">Curso</th>
+                <th scope="col">Genero</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+                <th scope="col">Nota 3</th>
+                <th scope="col">Promedio</th>
+
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+
+    <div class="modal fade" id="crearPers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 " id="exampleModalLabel">Estudiante</h1>
+                    <button type="button" class="btn-close mb-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Atras</button>
+                    <div class="row container">
+                        <div class="col-md-4">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="curso">Curso</label>
+                            <select id="curso" class="form-select ">
+                                <option selected value=''>Seleccionar...</option>
+                                <option>11</option>
+                                <option>10</option>
+                                <option>09</option>
+                                <option>08</option>
+                                <option>07</option>
+                                <option>06</option>
+                                <option>05</option>
+                                <option>04</option>
+                                <option>03</option>
+                                <option>02</option>
+                                <option>01</option>
+
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="genero" class="form-label">Genero</label>
+                            <select id="genero" class="form-select ">
+                                <option selected value=''>Seleccionar...</option>
+                                <option>Femenino</option>
+                                <option>Masculino</option>
+                                <option>No Binario</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="nota1" class="form-label">NOTA 1</label>
+                            <input type="number" class="form-control" id="nota1" max="5" min="0">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="nota2" class="form-label">NOTA 2</label>
+                            <input type="number" class="form-control" id="nota2" max="5" min="0">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="nota3" class="form-label">NOTA 3</label>
+                            <input type="number" class="form-control" id="nota3" max="5" min="0">
+                        </div>
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-primary mt-5" id="mostrar">MOSTRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>

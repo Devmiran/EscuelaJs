@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+     background-image: url(https://previews.123rf.com/images/naykirin/naykirin1706/naykirin170600120/81339080-l%C3%A1piz-de-color-y-l%C3%A1piz-sobre-fondo-blanco-y-cray%C3%B3n-para-aislar-y-recortar-el-fondo-efectos-de-escrit.jpg);
+     margin: 10px 20px;
+  
+}
+
+h3{
+    color: rgb(232, 232, 69);
+}
