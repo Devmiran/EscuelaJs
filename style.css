@@ -1,63 +1,15 @@
 *{
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    margin: 0;
 
+}
 body{
-    background: rgb(250, 246, 250);
-    background: radial-gradient(circle, rgb(147, 123, 148) 0%, rgb(90, 59, 107) 38%, rgb(187, 133, 210) 100%);
-    color: rgb(3, 2, 2);
-    font-family: sans-serif;
+     background-image: url(https://previews.123rf.com/images/naykirin/naykirin1706/naykirin170600120/81339080-l%C3%A1piz-de-color-y-l%C3%A1piz-sobre-fondo-blanco-y-cray%C3%B3n-para-aislar-y-recortar-el-fondo-efectos-de-escrit.jpg);
+     margin: 10px 20px;
+  
 }
 
-.container{
-    display: flex;
-    width: 730px;
-    margin: 50px auto;
-}
-
-.tablero{
-   background-color: rgba(252, 166, 252, 0.244);
-    padding: 10px;
-    
-}
-.tablero h1{
-    text-align: center;
-}
-
-button{
-   width: 100px;
-   height: 100px; 
-   font-size: 30px;
-   font-weight: 600;
-   border:none;
-   cursor: pointer;
-}
-
-.resultados{
-    background-color: rgba(169, 64, 169, 0.395);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#reset{
-    width: 80%;
-    height: 50px;
-    font-size:30px;
-    border-radius: 50px;
-    
-
-}
-#aciertos, #tiempo, #movimientos{
-    border: solid 1px;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
+h3{
+    color: rgb(232, 232, 69);
 }
